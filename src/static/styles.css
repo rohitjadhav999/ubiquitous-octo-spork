@@ -176,6 +176,25 @@ footer {
   border-radius: 999px;
   font-size: 14px;
   border: 1px solid #c5cae9;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.remove-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0;
+  margin-left: 6px;
+}
+
+.remove-participant:hover {
+  color: #b71c1c;
 }
 
 .participants-list li a {
